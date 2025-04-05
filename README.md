@@ -1,12 +1,63 @@
-# React + Vite
+# Tito's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website — built with **React**, **Tailwind CSS**, and deployed on **Netlify**. This site highlights my projects, skills, and contact information as a full-stack developer and content creator.
 
-Currently, two official plugins are available:
+## 🚀 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [https://titoportfolio.netlify.app](https://titoportfolio.netlify.app)
 
-## Expanding the ESLint configuration
+## 🧑‍💻 About Me
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I’m Tito — a full-stack web developer and creative with a passion for building interactive applications and remixing gaming clips into music video Shorts. I recently graduated from the **Per Scholas Software Engineering Bootcamp**, where I gained experience with:
+
+- React, JavaScript, HTML, CSS
+- Node.js, Express, MongoDB
+- RESTful APIs, JWT Auth, and more
+
+## 📁 Features
+
+- ⚛️ Built with React + Vite
+- 🎨 Styled using Tailwind CSS
+- 🧭 React Router for page navigation
+- 🛠️ Clean component structure
+- 📱 Responsive & mobile-friendly
+- 📎 Includes Resume, Projects, About, Contact
+- 💬 Toast notifications with `react-toastify`
+
+## 📄 Pages
+
+| Page        | Description                              |
+|-------------|------------------------------------------|
+| `/`         | Hero section, profile, intro             |
+| `/about`    | Bio, tech stack, resume button           |
+| `/projects` | Detailed project cards + live links      |
+| `/contact`  | Contact form powered by Formspree        |
+| `/404`      | Custom Not Found page                    |
+
+## 🧪 Projects Featured
+
+### Recipe App (Capstone)
+- Full-stack MERN app
+- User auth with JWT & bcrypt
+- Comments, image uploads, favorites
+- Deployed on Netlify + Render
+
+*More projects coming soon...*
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS, Vite, React Router
+- **Backend (for other projects):** Node.js, Express, MongoDB, Mongoose
+- **Auth:** JWT, Bcrypt
+- **Deployment:** Netlify (Frontend), Render (Backend)
+- **Dev Tools:** VS Code, Git, GitHub
+
+## 📬 Contact
+
+Feel free to reach out or collaborate:
+
+- Email: official.titof@gmail.com
+- GitHub: [@itzxtito](https://github.com/itzxtito)
+- LinkedIn: *(https://www.linkedin.com/in/feliciano-tito)*
+
+
