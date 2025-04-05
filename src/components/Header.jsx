@@ -8,6 +8,8 @@ export default function Header() {
         <div className="space-x-6">
           <Link to="/" className="hover:text-purple-400">Home</Link>
           <Link to="/projects" className="hover:text-purple-400">Projects</Link>
+          <Link to="/about" className="hover:text-purple-400">About</Link>
+          <Link to="/contact" className="hover:text-purple-400">Contact</Link>
 
           {/* Add more nav links here later */}
         </div>
