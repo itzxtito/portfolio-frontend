@@ -1,6 +1,7 @@
 export default function ProjectCard({ title, description, liveLink, frontendLink, backendLink }) {
     return (
-      <div className="border rounded-lg p-4 bg-white shadow">
+      <div className="border rounded-lg p-4 bg-white shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-200">
+
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="mb-4">{description}</p>
         <div className="flex flex-col space-y-2">

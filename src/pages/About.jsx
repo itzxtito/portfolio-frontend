@@ -1,8 +1,14 @@
-import profile from '../assets/profile.jpg'; // Optional: remove if not using image
+import { motion } from 'framer-motion';
+import profile from '../assets/profile.jpg';
 
 export default function About() {
   return (
-    <section className="min-h-screen bg-white text-gray-800 px-6 py-20">
+    <motion.section
+      className="min-h-screen bg-white text-gray-800 px-6 py-20"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
         {/* Profile Image */}
         <div className="w-full md:w-1/3 flex justify-center">
@@ -73,6 +79,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

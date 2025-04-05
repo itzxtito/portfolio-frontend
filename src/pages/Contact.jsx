@@ -1,6 +1,13 @@
+import { motion } from 'framer-motion';
+
 export default function Contact() {
   return (
-    <section className="min-h-screen px-6 py-20 bg-gray-50 text-gray-800">
+    <motion.section
+      className="min-h-screen px-6 py-20 bg-gray-50 text-gray-800"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6 text-purple-600">Get in Touch</h2>
         <p className="text-lg mb-10 text-gray-700">
@@ -59,6 +66,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 }

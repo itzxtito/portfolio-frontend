@@ -1,8 +1,14 @@
+import { motion } from 'framer-motion';
 import profile from '../assets/profile.jpg';
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-600 to-purple-600 text-white px-4 text-center">
+    <motion.section
+      className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-indigo-600 to-purple-600 text-white px-4 text-center"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <img
         src={profile}
         alt="Tito's Profile"
@@ -13,6 +19,6 @@ export default function Home() {
         I’m a full-stack developer and content creator with a passion for building clean,
         interactive apps and remixing gaming clips into music video shorts.
       </p>
-    </section>
+    </motion.section>
   );
 }
