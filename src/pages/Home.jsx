@@ -16,8 +16,7 @@ export default function Home() {
       />
       <h1 className="text-5xl font-bold mb-4">Hey, I'm Tito 👋</h1>
       <p className="text-lg max-w-xl">
-        I’m a full-stack developer and content creator with a passion for building clean,
-        interactive apps and remixing gaming clips into music video shorts.
+      I'm a full-stack developer and part-time DJ/content creator. With years of experience performing at live events, I blend my technical and creative skills to produce interactive web applications and custom audio-visual content that showcases both code and sound design.
       </p>
     </motion.section>
   );
