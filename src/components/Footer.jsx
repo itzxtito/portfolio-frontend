@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-      <footer className="bg-black text-white py-6 mt-20">
+      <footer className="bg-black text-white py-6">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center">
           <p className="text-sm">
             © {new Date().getFullYear()} Tito • All Rights Reserved
@@ -15,7 +15,7 @@ export default function Footer() {
               GitHub
             </a>
             <a
-              href="www.linkedin.com/in/feliciano-tito"
+              href="https://www.linkedin.com/in/feliciano-tito"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-purple-400"
