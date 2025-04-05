@@ -30,10 +30,10 @@ export default function About() {
             where I learned HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and built full-stack apps from scratch.
           </p>
           <p className="text-lg mb-4 leading-relaxed">
-            Outside of code, I’m a former DJ and now a gaming content creator — remixing gameplay clips with my own custom music and uploading to YouTube Shorts, Instagram Reels, and TikTok.
+            Outside of code, I’m a part-time DJ and content creator — remixing gameplay clips with my own custom music mixes.
           </p>
           <p className="text-lg leading-relaxed">
-            I’m currently seeking a <span className="font-semibold">remote developer position</span> while continuing to build my own portfolio apps.
+            I’m currently seeking a <span className="font-semibold">developer position</span> while continuing to build my own portfolio apps.
             Let’s connect and create something great together!
           </p>
 
