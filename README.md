@@ -61,3 +61,6 @@ Feel free to reach out or collaborate:
 - LinkedIn: *(https://www.linkedin.com/in/feliciano-tito)*
 
 
+📄 License
+This project is open source and free to use under the MIT License.
+
