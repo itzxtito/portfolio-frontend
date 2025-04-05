@@ -30,7 +30,7 @@ export default function About() {
             where I learned HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and built full-stack apps from scratch.
           </p>
           <p className="text-lg mb-4 leading-relaxed">
-            Outside of code, I’m a part-time DJ and content creator — remixing gameplay clips with my own custom music mixes.
+          In addition to software development, I’m a part-time DJ with a background in live event performance and music production. I've DJed for weddings, wineries, and private events, blending genres like hip hop, R&B, reggae, rock, and EDM to create dynamic, crowd-pleasing sets. I now combine that musical expertise with content creation, producing high-energy gameplay videos synced with custom audio mixes for platforms like YouTube and TikTok. This fusion of sound design and visual storytelling allows me to create immersive, mood-driven content that resonates with gaming and music communities alike.
           </p>
           <p className="text-lg leading-relaxed">
             I’m currently seeking a <span className="font-semibold">developer position</span> while continuing to build my own portfolio apps.
