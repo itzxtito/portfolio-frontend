@@ -16,8 +16,8 @@ export default function Projects() {
           title="Recipe App"
           description="A full-stack MERN app with user authentication, image uploads, comments, and favorites. Built using React, Node.js, Express, MongoDB, JWT, and bcrypt."
           liveLink="https://potluck-app.netlify.app/"
-          frontendLink="https://github.com/itzxtito/capstone-frontend"
-          backendLink="https://github.com/itzxtito/capstone-backend"
+          frontendLink="https://github.com/itzxtito/ecommerce-app-frontend.git"
+          backendLink="https://github.com/itzxtito/ecommerce-app-backend.git"
         />
         
         <ProjectCard
