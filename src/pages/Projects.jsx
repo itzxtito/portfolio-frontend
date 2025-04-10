@@ -19,6 +19,14 @@ export default function Projects() {
           frontendLink="https://github.com/itzxtito/capstone-frontend"
           backendLink="https://github.com/itzxtito/capstone-backend"
         />
+        
+        <ProjectCard
+          title="E-Commerce App"
+          description="A modern eCommerce store with category filters, search, animated transitions, and cart functionality. Built using React, Express, MongoDB, and Framer Motion. Phase 2 will include admin dashboard + authentication."
+          liveLink="https://titoecommerce.netlify.app/"
+          frontendLink="https://github.com/itzxtito/ecommerce-frontend"
+          backendLink="https://github.com/itzxtito/ecommerce-backend"
+        />
       </div>
     </motion.section>
   );
